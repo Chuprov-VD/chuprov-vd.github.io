@@ -1,73 +1,33 @@
-p {
-    color: red;
-}
-
-body {
-    font-family: sans-serif
-}
-
-h1 {
-    color: rgb(187, 51, 119);
-}
-
-.link {
-    text-decoration: none;
-    /* убирает подчеркивание из картинки*/
-    color: cornflowerblue;
-    font-size: 16px;
-    line-height: 20px;
-    color: cornflowerblue;
-
-}
-
-.main {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .up {
-    color: #222222;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
-
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
 
-.h2_index_main {
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
+.text {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.size_catalog_img {
-    border-radius: 50px;
-    /* закругляет картинку*/
-    width: 200px;
-    font-size: 58px;
-    line-height: 80px
+.upper {
+    width: 783px;
+    height: 268px;
+    flex-shrink: 0;
+    background: rgba(166, 178, 190, 0.41);
 }
 
-.input_app {
-    width: 200px;
-    height: 30px;
-    outline: none;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    font-size: 14px;
-    line-height: 30px;
-
-}
-
-.button_app {
-    width: 100px;
-    height: 30px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-
+.upperWide {
+    width: 1449px;
+    height: 268px;
+    flex-shrink: 0;
+    background: url(img/Rectangle\ 2.png), lightgray 50% / cover no-repeat;
+    box-sizing: border-box;
 }
