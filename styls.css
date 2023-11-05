@@ -22,6 +22,9 @@
     height: 268px;
     flex-shrink: 0;
     background: rgba(166, 178, 190, 0.41);
+    margin-left: 429px;
+    margin-right: 229px;
+    margin-bottom: 3px;
 }
 
 .upperWide {
@@ -29,5 +32,14 @@
     height: 268px;
     flex-shrink: 0;
     background: url(img/Rectangle\ 2.png), lightgray 50% / cover no-repeat;
+    box-sizing: border-box;
+}
+
+.top {
+    padding-right: 592px;
+    padding-left: 592px;
+    padding-bottom: 9px;
+    width: 256px;
+    height: 54px;
     box-sizing: border-box;
 }
